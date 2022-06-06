@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Log in page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+        body{
+            place-items:center;
+            display:grid;
+            background-color: #e0e2e4;
+            box-sizing: border-box;
+            font-family:  'Roboto', sans-serif;
+        }
+        input{
+            margin:auto;
+            height:20px;
+            border-radius:9px;
+            width: 400px;
+            outline-width: 0;
+            border: none;
+            background-color: #e0e2e4;
+            padding: 20px;
+            box-sizing: content-box;
+            margin-bottom: 10px;
+
+        }
+        a{
+            text-decoration: none;
+            color: #0074d9;
+            margin-left: 10px;
+        }
+        button:hover{
+            cursor: pointer;
+            transform: scale(1.02);
+            transition: transform 0.4s;
+        }
+        div{
+            background-color: whitesmoke;
+            border-radius: 9px;
+            margin: 10px;
+        }
+        button{
+            
+            min-width: 400px;
+            
+            
+            border-radius: 10px;
+            background-color:#0074d9;
+            color: white;
+            border: none;
+            padding: 20px;
+            display: block;
+            margin: auto;
+            box-sizing: content-box;
+            margin: 10px auto;
+            
+            
+
+        }
+        /* a{
+            display: flex;
+            justify-content: flex-end;
+
+            } */
+
+      i{
+          /* width: 20px; */
+          padding: 20px;
+          border-radius: 10px;
+          margin-right: 5px;
+          margin: 40px;
+      }  
+    #first{
+        background-color: #0074d9;
+    }
+    #second{
+        background-color:#fff;
+        border: 1px #0074d9 solid;
+    }
+    input:active{
+        border: 2px #00ccff;
+    }
+    h1{
+        margin-left: 15px;
+        letter-spacing: 1.1;
+    }
+    
+
+       
+    
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>WELCOME</h1>
+        <form action="">
+       <div>
+           <input type="email" placeholder="Email">
+       </div> 
+       <div>
+           <input type="password" placeholder="Password">
+        </div>
+        <a href="">Forgot Password?</a>
+       <br>
+       <button>SIGN IN</button>
+       </form>
+     <p style="margin-left: 10px"> Don't have an account?  <a href="">Sign Up</a></p>
+     
+     <i  id="first" class="fa-brands fa-facebook"><p style="margin:0 5px ; display: inline-block;" >facebook </p></i>
+     <i  id="second" class="fa-brands fa-google"><p style="margin:0 5px ; display: inline-block; ">Google</p></i>
+    </div>
+
+</body>
+<script src="https://kit.fontawesome.com/4b7c24094c.js" crossorigin="anonymous"></script>
+</html>
